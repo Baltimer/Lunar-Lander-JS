@@ -1,4 +1,4 @@
-# lunar-landing-javascript
+# Lunar Lander JS
 
 Juego Lunar Landing en su versión JavaScript
 
