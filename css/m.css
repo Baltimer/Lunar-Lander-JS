@@ -1,0 +1,115 @@
+body,html{
+    background-image: url(../img/Background.png);
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+.a {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    height: 100%;
+    color: skyblue;
+}
+#c{
+    background-color: darkblue;
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    height: 90%;
+    width: 95%;
+    display:none;
+    z-index: 25;
+    border-radius: 25px;
+    border-style: outset;
+    filter: opacity(90%);
+    text-align: center;
+    color: white;
+    font-size: 4vmin;
+}
+.d{
+    background-image: url(../img/SueloLunar.png);
+    background-size: cover;
+    position:fixed;
+    bottom:0px;
+    height:15%;
+    width:100%;
+}
+#nave{
+    text-align:center;
+    position:fixed;
+    top:10%;
+    width:100%;
+    height:20%;
+    z-index: 20;
+}
+#nave img{
+    height:100%;
+}
+#cpanel{
+    z-index: 2;
+}
+#altura{
+    z-index: 5;
+}
+#cpanel img{
+    width: 25%;
+    margin: 2%;
+    vertical-align: middle;
+}
+#showm{
+    float: right;
+    width: 20%;
+    z-index: 50;
+}
+#hidem{
+    float: right;
+    width: 10%;
+    margin: 1%;
+}
+#tierra{
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    width: 100%;
+    height: 70%;
+    z-index: 0;
+}
+#tierra img{
+    height: 100%;
+    position: relative;
+}
+#restart{
+    width: 30%;
+    display: inline-block;
+    margin-top: 10%;
+    position: relative;
+}
+#restart img{
+    width: 60%;
+}
+#about{
+    width: 30%;
+    display: inline-block;
+    margin-top: 10%;
+    position: relative;
+}
+#about img{
+    width: 60%;
+}
+#end{
+    top: 20%;
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    position: fixed;
+    background-color: darkblue;
+    border-radius: 25px;
+    color: white;
+    font-size: 4vmin;
+    border-style: outset;
+    filter: opacity(90%);
+    display: none;
+    z-index: 25;
+    text-align: center;
+}
