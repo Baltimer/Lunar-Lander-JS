@@ -1,1 +1,41 @@
-<!DOCTYPE html><html><head> <title>Lunar Lander JS</title> <meta name="description" content="Lunar Lander con los conocimientos de primero de DAW"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel='stylesheet' media='screen and (min-width: 721px)' href='css/d.css'> <link rel='stylesheet' media='screen and (max-width: 720px)' href='css/m.css'> <script src="js/js.js"></script></head><body> <div id="nave"> <img id="cohete" src="img/Cohete.png" alt="img nave"> </div><img onclick="pausar();" id="showm" src="img/Pausa.png"> <div id="tierra"> <img src="img/Tierra.png" alt="img tierra"> </div><div class="a"> <div id="cpanel"> <img src="img/Velocity.png"> <span id="velocidad">100</span> m/s<br><img src="img/Fuel.png"> <span id="fuel">100</span> L<br><img src="img/Height.png"> <span id="altura">70</span> m<br></div></div><div class="b"></div><div id="c"> <img onclick="reanudar();" id="hidem" src="img/cancel.png"> <br><br><h1>PAUSA</h1> <p>Para poder ganar deberás llegar a la superfície lunar a una velocidad inferior a 5 m/s, sino la nave explotará.</p><p>Mantén pulsada cualquier tecla o clica una vez en la pantalla para encender los motores, y vuelve a clicar para apagar los motores. Pero recuerda: <br><br>El fuel decrece a medida que das impulso!</p></div><div class="d"></div><div id="end"> <h1 id="endgame">FIN DEL JUEGO</h1> <span id="infogame">Has perdido! Inténtalo de nuevo o mira la página de instrucciones para aprender más del juego.</span><br><div id="restart"><img onclick="reset();" src="img/Reinicio.png" alt="img reset"></div><div id="about"><a href="about.html"><img src="img/About.png" alt="img about"></a></div></div></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lunar Lander JS</title>
+    <meta name="description" content="Lunar Lander con los conocimientos de primero de DAW">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' media='screen and (min-width: 721px)' href='css/d.css'>
+    <link rel='stylesheet' media='screen and (max-width: 720px)' href='css/m.css'>
+    <script src="js/js.js"></script>
+</head>
+<body>
+    <div id="nave">
+        <img id="cohete" src="img/Cohete.png" alt="img nave">
+    </div>
+    <img onclick="pausar();" id ="showm" src="img/Pausa.png">
+    <div id="tierra">
+        <img src="img/Tierra.png" alt="img tierra">
+    </div>
+    <div class="a">
+        <div id="cpanel">
+            <img src="img/Velocity.png"> <span id="velocidad">100</span> m/s<br>
+            <img src="img/Fuel.png"> <span id="fuel">100</span> L<br>
+            <img src="img/Height.png"> <span id="altura">70</span> m<br>
+        </div>
+    </div>
+    <div class="b"></div>
+    <div id="c">
+        <img onclick="reanudar();" id="hidem" src="img/cancel.png">
+        <br><br><h1>PAUSA</h1>
+        <p>Para poder ganar deberás llegar a la superfície lunar a una velocidad inferior a 5 m/s, sino la nave explotará.</p>
+        <p>Mantén pulsada cualquier tecla o clica una vez en la pantalla para encender los motores, y vuelve a clicar para apagar los motores. Pero recuerda: <br><br>El fuel decrece a medida que das impulso!</p>
+    </div>
+    <div class="d"></div>
+    <div id="end">
+        <h1 id="endgame">FIN DEL JUEGO</h1>
+        <span id="infogame">Has perdido! Inténtalo de nuevo o mira la página de instrucciones para aprender más del juego.</span><br>
+        <div id="restart"><img onclick="reset();" src="img/Reinicio.png" alt="img reset"></div>
+        <div id="about"><a href="about.html"><img src="img/About.png" alt="img about"></a></div>
+    </div>
+</body>
+</html>
